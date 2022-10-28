@@ -7,38 +7,54 @@
 }
 
 header {
+    display: flex;
+    align-content: center;
+    justify-items: center;
+    margin: auto;
     font-size: 1.5rem;
 }
 
-nav {
+.sidewrap {
     display: flex;
     position: relative;
 }
-nav .sidebar {
+.sidewrap .sidebar {
     position: fixed;
     width: 200px;
     height: 100%;
     background-color: grey;
-    padding: 30px 0;
+    padding: 100px 0;
 }
 
-nav ul {
-    margin: 0;
-    padding: 0;
+.sidewrap ul li {
+    margin: 0 15px;
+    padding: 15px;
     width: 60px;
+    border-bottom: 1px solid rgba(0, 0, 0, .05);
+    border-top: 1px solid rgba(225, 225, 225, .05);
+    display: flex;
 }
 
-li a {
-    display: block;
-    margin: 10px 0;
-    padding: 8px 16px;
+.sidewrap ul li:hover{
+  background-color: lightgray;
 }
 
-ul li img {
+
+a[href$=".html"] {
+    margin-left: 20px;
+}
+
+
+.icon-img {
     height: 25px;
     width: 25px;
-    display: inline;
 }
+
+/* nav ul li img {
+    height: 25px;
+    width: 25px;
+    display: flex;
+} */
 
 .profile img {
     height: 300px;
