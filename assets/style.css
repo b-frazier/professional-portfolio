@@ -56,12 +56,25 @@ a[href$=".html"] {
     border-radius: 50%;
 }
  main {
-    display: flex;
-    flex-direction: column;
+    width: 100%;
+    margin-left: 250px;
  }
 
  .about-me {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    padding: 50px;
 
  }
+
+.socials {
+    display: flex;
+    height: 200px;
+    width: 300px;
+    background-color: grey;
+}
+
+.socials .social-img {
+    width: 40px;
+    height: 40px;
+}
