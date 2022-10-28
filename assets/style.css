@@ -1,0 +1,34 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    font-size: 1.5rem;
+}
+
+nav {
+    width: 200px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 60px;
+}
+
+.profile img {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+}
+ main {
+    display: flex;
+    flex-direction: column;
+ }
+
+ .about-me {
+    display: flex;
+    flex-direction: column;
+
+ }
