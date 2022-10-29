@@ -133,6 +133,11 @@ a[href$=".html"] {
     border-radius: 20px;
 }
 
+.card:hover {
+    transform: scale(1.050);
+    box-shadow: 0px 0px 8px #000000;
+}
+
 .card-text {
     margin: 10px 10px;
     padding: 10px 10px;
