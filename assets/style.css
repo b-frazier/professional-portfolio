@@ -6,20 +6,22 @@
     text-decoration: none;
 }
 :root{
-    --yellow: #e9d041;
+    --yellow: #e8d774;
     --faded-yellow: rgba(233, 208, 65, .5);
+    --lightest-yellow: rgba(233, 208, 65, 0);
     --dark-yellow: #544b13;
 }
 html {
     scroll-behavior: smooth;
 }
 
-header {
-    display: flex;
-    align-content: center;
-    justify-items: center;
+.header {
+    height: 125px;
+    width:100%;
+    text-align: center;
     margin: auto;
     font-size: 1.5rem;
+    background-color: var(--yellow);
 }
 
 .sidewrap {
@@ -30,8 +32,8 @@ header {
     position: fixed;
     width: 250px;
     height: 100%;
-    background-color: grey;
-    padding: 100px 0;
+    background-color: var(--dark-yellow);
+    padding: 80px 0;
 }
 
 .sidewrap ul li {
@@ -42,9 +44,16 @@ header {
     border-top: 1px solid rgba(225, 225, 225, .05);
     display: flex;
 }
+li.nav-op a {
+    color: white;
+}
 
 li.nav-op:hover{
-    background-image: linear-gradient(to right, rgba(211, 211, 211, 0), rgba(211,211,211, .5), rgba(211, 211, 211, 0));
+    background-image: 
+    linear-gradient(to right, 
+    var(--lightest-yellow), 
+    var(--faded-yellow), 
+    var(--lightest-yellow));
 }
 
 
@@ -56,6 +65,7 @@ a[href$=".html"] {
 .icon-img {
     height: 30px;
     width: 30px;
+    filter: invert(100%);
 }
 
 .profile img {
@@ -97,11 +107,12 @@ a[href$=".html"] {
     width: 230px;
     padding: 20px;
     margin: 0 50px;
-    background-color: grey;
+    background-color: var(--dark-yellow);
     border-radius: 15px;
 }
 .socials h3 {
     margin-top: 10px;
+    color: white;
 }
 .social-row {
     margin: 25px 0 25px 0;
@@ -111,6 +122,7 @@ a[href$=".html"] {
     height: 50px;
     margin: 0px 20px;
     padding: 2px;
+    filter: invert(100%);
 }
 .socials .social-img:hover {
     background-color: rgba(255, 255, 255, 0.5);
@@ -131,6 +143,7 @@ a[href$=".html"] {
     margin-left: 75px;
     background-color: var(--faded-yellow);
     border-radius: 20px;
+    max-width: 400px;
 }
 
 .card:hover {
