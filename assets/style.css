@@ -36,7 +36,7 @@ header {
 }
 
 li.nav-op:hover{
-  background-color: lightgray;
+    background-image: linear-gradient(to right, rgba(211, 211, 211, 0), rgba(211,211,211, .5), rgba(211, 211, 211, 0));
 }
 
 
@@ -81,18 +81,26 @@ a[href$=".html"] {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 200px;
-    width: 300px;
+    height: 130px;
+    width: 230px;
     padding: 20px;
     margin: 0 50px;
     background-color: grey;
     border-radius: 15px;
 }
+.socials h3 {
+    margin-top: 10px;
+}
 .social-row {
-    margin: 20px 0;
+    margin: 25px 0 25px 0;
 }
 .socials .social-img {
     width: 50px;
     height: 50px;
-    margin: 0 15px;
+    margin: 0px 20px;
+    padding: 2px;
+}
+.socials .social-img:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 5px;
 }
