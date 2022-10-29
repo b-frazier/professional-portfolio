@@ -11,17 +11,19 @@
     --lightest-yellow: rgba(233, 208, 65, 0);
     --dark-yellow: #544b13;
 }
+
 html {
-    scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 .header {
-    height: 125px;
+    height: 120px;
     width:100%;
     text-align: center;
-    margin: auto;
+    padding: 30px 0 0 0 ;
     font-size: 1.5rem;
     background-color: var(--yellow);
+    color: var(--dark-yellow);
 }
 
 .sidewrap {
@@ -61,7 +63,6 @@ a[href$=".html"] {
     margin-left: 20px;
 }
 
-
 .icon-img {
     height: 30px;
     width: 30px;
@@ -92,6 +93,7 @@ a[href$=".html"] {
     justify-content: center;
     width: 600px;
     padding: 10px 60px;
+    color: var(--dark-yellow);
  }
 
  .description h2 {
@@ -123,10 +125,6 @@ a[href$=".html"] {
     margin: 0px 20px;
     padding: 2px;
     filter: invert(100%);
-}
-.socials .social-img:hover {
-    background-color: rgba(255, 255, 255, 0.5);
-    border-radius: 5px;
 }
 
 /* .divider {
