@@ -115,6 +115,13 @@ a[href$=".html"] {
     width: 100%;
 } */
 
+.project-container {
+    display: flex;
+}
+.card {
+    padding-left: 75px;
+}
+
 footer {
     position: fixed;
     left: 0;
