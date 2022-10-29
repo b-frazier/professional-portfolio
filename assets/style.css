@@ -46,8 +46,8 @@ a[href$=".html"] {
 
 
 .icon-img {
-    height: 25px;
-    width: 25px;
+    height: 30px;
+    width: 30px;
 }
 
 .profile img {
@@ -63,18 +63,36 @@ a[href$=".html"] {
  .about-me {
     display: flex;
     flex-direction: row;
+    align-items: center;
     padding: 50px;
+    width: 100%;
+ }
 
+ .description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 600px;
+    padding: 10px 50px;
  }
 
 .socials {
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     height: 200px;
     width: 300px;
+    padding: 20px;
+    margin: 0 50px;
     background-color: grey;
+    border-radius: 15px;
 }
-
+.social-row {
+    margin: 20px 0;
+}
 .socials .social-img {
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
+    margin: 0 15px;
 }
