@@ -57,14 +57,14 @@ a[href$=".html"] {
 }
  main {
     width: 100%;
-    margin-left: 250px;
+    margin-left: 300px;
  }
 
  .about-me {
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 50px;
+    padding: 75px 50px;
     width: 100%;
  }
 
@@ -73,7 +73,11 @@ a[href$=".html"] {
     flex-direction: column;
     justify-content: center;
     width: 600px;
-    padding: 10px 50px;
+    padding: 10px 60px;
+ }
+
+ .description h2 {
+    font-size: 45px;
  }
 
 .socials {
