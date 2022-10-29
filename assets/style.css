@@ -109,6 +109,12 @@ a[href$=".html"] {
     border-radius: 5px;
 }
 
+/* .divider {
+    border-top: 5px solid black;
+    border-radius: 5px;
+    width: 100%;
+} */
+
 footer {
     position: fixed;
     left: 0;
