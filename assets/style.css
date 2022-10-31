@@ -41,6 +41,7 @@ html {
     background-color: var(--dark-yellow);
     padding: 80px 0;
     overflow: auto;
+    /* top: 0; */
 }
 
 .sidewrap ul li {
@@ -142,10 +143,11 @@ a[href$=".html"] {
 
 .project-container {
     display: flex;
+    width: 100%;
 }
 .card {
     height: 450px;
-    margin-left: 75px;
+    margin: 25px;
     background-color: var(--faded-yellow);
     border-radius: 20px;
     max-width: 400px;
@@ -189,7 +191,7 @@ footer {
     text-align: center;
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 800px) {
     main {
         display: flex;
         flex-direction: column;
@@ -219,5 +221,8 @@ footer {
 
     .card {
         margin: 25px;
+    }
+    .socials {
+        margin: auto;
     }
 }
