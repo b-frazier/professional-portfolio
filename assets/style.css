@@ -106,11 +106,12 @@ a[href$=".html"] {
     justify-content: center;
     width: 600px;
     padding: 10px 60px;
-    color: var(--dark-yellow);
+
  }
 
- .description h2 {
+h2 {
     font-size: 45px;
+    color: var(--dark-yellow);
  }
 
 .socials {
@@ -199,7 +200,16 @@ img.project-photo {
     width: 100%;
 }
 
-
+.download-button {
+    display: inline-block;
+    appearance: button;
+    padding: 10px;
+    background-color: var(--dark-yellow);
+    color: var(--yellow);
+    font-size: 16px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
 
 footer {
     position: relative;
