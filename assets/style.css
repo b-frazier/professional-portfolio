@@ -17,6 +17,7 @@ body{
 }
 
 html {
+    scroll-behavior: smooth;
     overflow-x: hidden;
     width: 100%;
 }
@@ -71,8 +72,7 @@ li.nav-op:hover{
     var(--lightest-yellow));
 }
 
-
-a[href$=".html"] {
+a[href*="#"] {
     margin-left: 20px;
 }
 
