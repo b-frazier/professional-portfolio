@@ -6,6 +6,7 @@ Future employers can find samples of my projects, work experience, and contact m
 
 <img src= "assets/images/portfolio-page.png" width="700">
 
+https://b-frazier.github.io/professional-portfolio/
 
 I will primarily be using HTML and CSS but I would like to try and implement a bit of JavaScript.
 
