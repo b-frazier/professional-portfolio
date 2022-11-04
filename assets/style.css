@@ -162,6 +162,7 @@ h2 {
 .card:first-child {
     width: 85%;
     max-width: 50vw;
+    background-color: #CCD5AE;
 }
 
 .card-text {
