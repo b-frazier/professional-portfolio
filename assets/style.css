@@ -199,6 +199,37 @@ img.project-photo {
     height: 300px;
     width: 100%;
 }
+.resume-container {
+    color: var(--dark-yellow)
+}
+.resume-titles h3 {
+    font-size: 30px;
+    margin-top: 10px;
+}
+.resume-titles h4 {
+    font-size: 22px;
+    margin-top: 12px;
+}
+.resume-titles h5 {
+    font-size: 18px;
+}
+.resume-titles ul li {
+    margin-left: 18px;
+    list-style: square;
+    line-height: 1.75;
+}
+
+div.skills-columns {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+div.skills {
+    width: 50%;
+}
+div.skills ul li {
+    line-height: 1.75;
+}
 
 .download-button {
     display: inline-block;
@@ -220,6 +251,17 @@ footer {
     background-color: var(--yellow); 
     text-align: center;
     z-index: -1;
+}
+
+@media only screen and (max-width: 1200px) {
+    .about-me {
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 75px 0;
+    }
+    .socials {
+        margin-top: 20px;
+    }
 }
 
 @media only screen and (max-width: 800px) {
